@@ -1,0 +1,93 @@
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    padding: 1rem !important;
+}
+
+.navbar-brand {
+    font-size: 1.5rem !important;
+}
+
+@media(min-width: 768px) {
+    .card-body {
+        padding: 2rem 4rem !important;
+    }
+}
+
+.post-thumbnail {
+    margin-top: 1.5em;
+    display: inline-block;
+}
+
+.footer {
+    font-size: .9rem;
+    margin-top: 1rem;
+}
+
+.cat-links a {
+    color: #6c757d;
+}
+
+.cat-links .badge {
+    font-size: 90%;
+    font-weight: 400;
+    border: 1px solid rgba(0,0,0,.125);
+    margin: 4px 10px 4px 0;
+    padding: .4em .9em;
+}
+
+.links {
+    float: right;
+    margin: 4px 0 4px 10px;
+    font-size: 90%;
+    padding-top: .2em;
+}
+
+.widget {
+    margin-bottom: 0;
+    padding: 2rem;
+}
+
+.widget ul {
+    padding-left: 20px;
+    color: #6c757d;
+    margin-bottom: 0;
+}
+
+.widget ul li {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    list-style: square;
+}
+
+.widget ul li a {
+    color: #6c757d;
+}
+
+.widget ul li a:hover {
+    color: #000000;
+}
+
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 1.5rem;
+    z-index: 1020;
+}
+
+.post-header {
+    background-color: #343a40;
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+}
+
+.post-header-overlay {
+    padding: 6rem 0;
+}
+
+.meta {
+    font-size: 0.9rem;
+}

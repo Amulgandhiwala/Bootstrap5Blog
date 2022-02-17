@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Blog</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><h2 class="h3">Bootstrap 5 Blog</h2></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link" href="#">Features</a>
+                    <a class="nav-link" href="#">Pricing</a>
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 mt-5">
+                <div id="carouselExampleCaptions" class="carousel slide rounded" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="http://placehold.it/800x400" class="d-block w-100" alt="http://placehold.it/800x400">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>First slide label</h5>
+                                <p>Some representative placeholder content for the first slide.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="http://placehold.it/800x400" class="d-block w-100" alt="http://placehold.it/800x400">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Second slide label</h5>
+                                <p>Some representative placeholder content for the second slide.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="http://placehold.it/800x400" class="d-block w-100" alt="http://placehold.it/800x400">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Third slide label</h5>
+                                <p>Some representative placeholder content for the third slide.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+                <article class="mt-5 card rounded-1 mb-3">
+                    <div class="card-body p-4">
+                        <header>
+                            <h2 class="card-title h3">
+                                <a href="#" class="text-dark">How to install “WP Bootstrap 4” WordPress theme?</a>
+                            </h2>
+                            <div class="text-muted">
+                                <span>Posted On March 20, 2018</span>
+                                <span> by <a href="#">Amul G</a></span>
+                            </div>
+                        </header>
+                        <a href="#" class="post-thumbnail">
+                            <img class="img-fluid rounded" src="https://bootstrap-wp.com/wp-content/uploads/2018/03/pexels-photo-196658.jpeg" alt="Post Image">
+                        </a>
+                        <div class="mt-4">
+                            <p class="mb-3">
+                                There are 2 different ways to install a free WordPress theme. Both are really very simple and easy. 1. Install theme manually by uploading zip file. As we mentioned in the last post, you can download WP Bootstrap 4 in two different ways. Once you download the theme, you get a zip file which is an installable […]
+                            </p>
+                        </div>
+                        <a href="#" class="btn btn-primary btn-sm">Continue Reading <small class="fas fa-chevron-right"></small></a>
+                    </div>
+                    <footer class="footer card-footer text-muted">
+                        <span class="cat-links">
+                            <span class="badge badge-light badge-pill">
+                                <a href="#">Documentation</a>
+                            </span>
+                            <span class="badge badge-light badge-pill">
+                                <a href="#">Sports</a>
+                            </span>
+                        </span>
+                        <span class="links">
+                            <span><small class="fas fa-eye"></small> 2000</span>&nbsp;&nbsp;
+                            <span><small class="fas fa-comment"></small> 2000</span>
+                        </span>
+                    </footer>
+                </article>
+                <article class="mt-5 card rounded-1 mb-3">
+                    <div class="card-body p-4">
+                        <header>
+                            <h2 class="card-title h3">
+                                <a href="#" class="text-dark">How to download “WP Bootstrap 4” theme?</a>
+                            </h2>
+                            <div class="text-muted">
+                                <span>Posted On June 25, 2018</span>
+                                <span> by <a href="#">Amul G</a></span>
+                            </div>
+                        </header>
+                        <a href="#" class="post-thumbnail">
+                            <img class="img-fluid rounded" src="https://bootstrap-wp.com/wp-content/uploads/2018/06/download-WordPress-Theme-Bootstrap.jpg" alt="Post Image">
+                        </a>
+                        <div class="mt-4">
+                            <p class="mb-3">
+                                There are 2 different ways to install a free WordPress theme. Both are really very simple and easy. 1. Install theme manually by uploading zip file. As we mentioned in the last post, you can download WP Bootstrap 4 in two different ways. Once you download the theme, you get a zip file which is an installable […]
+                            </p>
+                        </div>
+                        <a href="#" class="btn btn-primary btn-sm">Continue Reading <small class="fas fa-chevron-right"></small></a>
+                    </div>
+                    <footer class="footer card-footer text-muted">
+                        <span class="cat-links">
+                            <small class="fas fa-tags"></small>&nbsp;&nbsp;
+                            <span class="badge badge-light badge-pill">
+                                <a href="#">Documentation</a>
+                            </span>
+                            <span class="badge badge-light badge-pill">
+                                <a href="#">Sports</a>
+                            </span>
+                        </span>
+                        <span class="links">
+                            <span><small class="fas fa-eye"></small> 2000</span>&nbsp;&nbsp;
+                            <span><small class="fas fa-comment"></small> 2000</span>
+                        </span>
+                    </footer>
+                </article>
+            </div>
+            <div class="col-md-4 mt-5">
+                <aside class="card sticky mb-3">
+                    <section class="widget border-bottom">
+                        <form action="#">
+                            <input type="text" name="q" placeholder="Search..." class="form-control">
+                        </form>
+                    </section>
+                    <section class="widget border-bottom">
+                        <h5 class="h6">Recent Posts</h5>
+                        <ul>
+                            <li><a href="#">How to install “WP Bootstrap 4” WordPress theme?</a></li>
+                            <li><a href="#">How to download “WP Bootstrap 4” theme?</a></li>
+                        </ul>
+                    </section>
+                    <section class="widget border-bottom">
+                        <h5 class="h6">Categories</h5>
+                        <ul>
+                            <li><a href="#">Documentation</a></li>
+                            <li><a href="#">Sports</a></li>
+                        </ul>
+                    </section>
+                    <section class="widget border-bottom">
+                        <h5 class="h6">Categories</h5>
+                        <ul>
+                            <li><a href="#">Documentation</a></li>
+                            <li><a href="#">Sports</a></li>
+                        </ul>
+                    </section>
+                    <section class="widget border-bottom">
+                        <h5 class="h6">Archives</h5>
+                        <ul>
+                            <li><a href="#">March 2018</a></li>
+                            <li><a href="#">June 2018</a></li>
+                        </ul>
+                    </section>
+                </aside>
+            </div>
+        </div>
+    </div>
+
+    <footer class="text-center bg-white mt-4 text-muted py-5">
+        <div class="container">
+            <a href="#">Bootstrap 5 Blog</a>
+            <span> | </span>
+            <span>By Amul Gandhiwala</span>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+</body>
+</html>
